@@ -1,0 +1,24 @@
+body {
+  background: #141414;
+}
+
+.container {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.display {
+  background: #111;
+  color: #dcdcdc;
+}
+
+.btn {
+  border: 1px solid #dcdcdc;
+  background: #141414;
+  color: #dcdcdc;
+}
+
+.btn:focus {
+  outline: none;
+  border-color: red;
+}
