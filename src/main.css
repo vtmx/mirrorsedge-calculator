@@ -1,24 +1,35 @@
+:root {
+	--dark: #141414;
+	--light: #dcdcdc;
+	--primary: #b40e0e;
+}
+
 body {
-  background: #141414;
+	background: var(--dark);
+	font: 18px 'Segoe UI', sans-serif;
 }
 
 .container {
-  max-width: 480px;
-  margin: 0 auto;
+	max-width: 480px;
+	margin: 0 auto;
 }
 
 .display {
-  background: #111;
-  color: #dcdcdc;
+	background: var(--dark);
+	color: var(--light);
+}
+
+.buttons {
+	display: grid;
 }
 
 .btn {
-  border: 1px solid #dcdcdc;
-  background: #141414;
-  color: #dcdcdc;
+	border: 1px solid var(--light);
+	background: var(--dark);
+	color: var(--light);
 }
 
 .btn:focus {
-  outline: none;
-  border-color: red;
+	outline: none;
+	border-color: var(--primary);
 }
